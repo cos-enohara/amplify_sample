@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>this is develop branch</h1>
+        <h1>develop has marged to master</h1>
       </header>
     </div>
   );
