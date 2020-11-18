@@ -4,6 +4,7 @@ import { API, Storage } from 'aws-amplify';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 import { listNotes } from './graphql/queries';
 import { createNote as createNoteMutation, deleteNote as deleteNoteMutation } from './graphql/mutations';
+import { AmazonAIConvertPredictionsProvider } from '@aws-amplify/predictions';
 
 const initialFormState = { name: '', description: '' }
 
@@ -89,5 +90,5 @@ function App() {
     </div>
   );
 }
-
+// gitaaa
 export default withAuthenticator(App);
